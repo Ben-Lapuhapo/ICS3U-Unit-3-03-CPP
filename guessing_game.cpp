@@ -9,7 +9,7 @@
 int main() {
     // This function checks if the user's number is correct
     int user_input;
-    int secret_number = rand_r() % 1 + 2;
+    int secret_number = rand() % 1 + 9;
 
     // input
     std::cout << "Enter Your guess from (0-9): ";
